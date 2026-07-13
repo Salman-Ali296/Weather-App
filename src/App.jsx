@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar';
 import Weather from './Components/Weather';
 import './Components/Weather.css'; // Import for background styles
 
-const API_KEY = "d9b79d81cf3b69d934b08a8ed97ba475";
+const API_KEY = "";
 
 const App = () => {
   const [weatherData, setWeatherData] = useState(null);
